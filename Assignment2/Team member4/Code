@@ -1,0 +1,13 @@
+import random
+temperature=random.randint(25,50)
+humidity=random.randint(15,45)
+for i in range(10,50):
+  if(temperature>25) & (humidity>25):
+    print(temperature)
+    print(humidity)
+    print("alarm is ON");
+   else:
+    print(temperature)
+    print(humidity)
+    print("alarm is OFF");
+    
